@@ -1,16 +1,34 @@
-# .DSList
+# DSList-Monorepo
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Hfictus/dslist/blob/main/LICENSE) 
 
 # Sobre o projeto:
 
-DSList é uma aplicação web Backend construída no evento Intensivão Java Spring, organizado pela DevSuperior em novembro de 2024.
+DSList-Monorepo é uma aplicação web Full-Stack construída a partir de projeto de Back-end, dsllist, anteriormente criado no evento Intensivão Java Spring, organizado pela DevSuperior em novembro de 2024. O DSList-Monorepo é um exercício de criação do projeto de Front-end e integração entre ele e o de Back-end em 2026.
 
-No evento, abordou-se em linhas gerais relações entre Backend e Frontend num contexto de aplicações web, considerando-se conceitos e tecnologias. 
+No evento de 2024, abordou-se em linhas gerais relações entre Back-end e Front-end num contexto de aplicações web, considerando-se conceitos e tecnologias. 
 
-Apresentou-se três perfis básicos de desenvolvimento: testes, com H2; homologação, com PostgreSQL e aplicação de cliente opcional (como PgAdmin); e, produção, implantação em nuvem com Railway.
+Apresentou-se três perfis básicos de desenvolvimento: testes, com H2; homologação local, com PostgreSQL e aplicação de cliente opcional (como PgAdmin); e, produção, implantação em nuvem com Railway.
+E apesar de não ter sido construído o Front-end, foram mostradas imagens de como o DSList poderia ser implementado em página web, considerando-se o sistema no Back-end.
+No DSList-Monorepo, busca-se implementação do Front-end a partir de Mobile First.
 
-E apesar de não ter sido construído o Frontend, abaixo são mostradas imagens de como o DSList poderia ser desenvolvido, considerando-se o sistema no Backend.
+## Stack
+### Back-end
+* Java
+* Spring Boot
+
+### Front-end
+* React + Vite <br>
+* TypeScript<br>
+
+### Banco de dados & infraestrutura
+* H2 (test)
+* PostgreSQL + PgAdmin (dev)
+* Docker (ambiente de banco de dados)
+* Node.js + Yarn (ambiente de desenvolvimento)
+
+## Layout Mobile:
+a ser feito
 
 ## Layout web:
 
@@ -30,29 +48,15 @@ Clicando-se sobre um dos jogos, pode-se ver detalhes sobre ele:
 
 ![Web 4]( https://github.com/Hfictus/images/blob/main/exampleGameDSListApp.webp)
 
-## Modelo conceitual:
+## Modelo conceitual (Back-end):
 
 ![domineModel]( https://github.com/Hfictus/images/blob/main/ModelDomainDSList.webp
 )
 
-## Algumas tecnologias utilizadas:
-Java
 
-Spring Boot
+## Como executar o projeto backend:
 
-JPA / hibernate
-
-Maven
-
-Postman
-
-PostgreSQL, PgAdmin;
-
-Docker
-
-## Como executar o projeto:
-
-Para a execução do projeto Backend para fins de testes, recomenda-se clonar o repositório ou fazer o download zip (descompactando-o); importar o projeto para a IDE; baixar PostgreSQL e PgAdmin ou DBeaver, ou criar uma rede de containers com docker-compose; e usar o Postman para simular requisições (pode ser necessário criar conta antes).
+Para a execução do projeto backend para fins de testes, recomenda-se clonar o repositório ou fazer o download zip (descompactando-o); importar o projeto para a IDE; baixar PostgreSQL e PgAdmin ou DBeaver, ou criar uma rede de containers com docker-compose; e usar o Postman para simular requisições (pode ser necessário criar conta antes).
 
 ## Autor:
 
